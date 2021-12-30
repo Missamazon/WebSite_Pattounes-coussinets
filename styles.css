@@ -1,0 +1,19 @@
+p, h1, h2, h3, h4, h5, li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    padding: 1em;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.row{
+    padding: 1em;
+    margin: auto;
+}
+.container_site{
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}

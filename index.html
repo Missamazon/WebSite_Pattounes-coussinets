@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Pattounes & coussinets</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container_site">
+            <h1 class="text-logo"><img src="https://img.icons8.com/office/30/000000/cat-footprint.png"/>Pattounes et coussinets<img src="https://img.icons8.com/office/30/000000/cat-footprint.png"/></h1>
+            <div class="row">
+              <div class="col-sm-3 d-flex flex-column justify-content-around justify-content-between">
+                <div class="container nav" >
+                    <nav>
+                        <ul class="nav nav-tabs flex-md-column row-sm">
+                            <li role="presentation" class="nav-item active"><a href="#" data-toggle="tab">Accueil</a></li>
+                            <li role="presentation" class="nav-item dropdown"><a href="actions.html" data-toggle="tab">Nos actions</a>
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Nos actions</a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#1">Recueillir</a></li>
+                                      <li><a class="dropdown-item" href="#2">Soigner</a></li>
+                                      <li><a class="dropdown-item" href="#3">Conseiller</a></li>
+                                    </ul>
+                            </li>
+                            <li role="presentation" class="nav-item"><a href="#" data-toggle="tab">Notre boutique</a></li>
+                        </ul>
+                    </nav>
+                  </div>
+                 </div>
+                 <div class="col-sm-9 justify-content-between">
+                  <h2>Les nouveautés de l'assoc'</h2>
+                  <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="https://pixabay.com/get/ga35a8dfd14b65d2d77924094c3e0d91c236ded4bfea262dc526b7ad774f0390306d9b2c26edec6d3078e283b067e97855b7235e1dc2392c29e59856756e42196656627bc36c5c6b1474b1721b8cc5f8a_640.jpg" class="d-block w-100" alt="New born">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Nouvelles naissances</h5>
+                            <p>Osaka a donné naissance à six petits bouts. </br>
+                              Les noms choisis suite aux jeux concours sont Suzuka, Sabelette, Samba, Sanji, Simba et Saül.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://pixabay.com/get/g8ba4a79006c10e27a2a9e42384d15bce3760262b86fb70a4834e655d7b8f7342e97d8e23951c87925449f36910ba5845d88f6490eca0bb98fe63665f54cd12f9d62b7d82b50c686f038b2c0266cec054_640.jpg" class="d-block w-100" alt="Dog education classes">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Troisième week-end éducation canine</h5>
+                            <p>Ce troisième week-end d'éducation canine a encore été un succès avec plus de 30 binômes maitre-chien présents.<br>
+                          Toujours un réel plaisir de partager ces moments avec vous. <br/>
+                          La date du prochain week-end vous sera communiqué ultérieurement.</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://pixabay.com/get/gef6f13ee9797dce7ca9371a4d0c6d68c1adc0ab2353039be04b8c80ce140c26202975972ee4a69412c179ff9272d8b88f381a7f33fc3b0e75985af99dc13203bc8231940d7ed690afdb81882b59202e8_640.jpg" class="d-block w-100" alt="Couple of ferrets">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Accueil d'un couple de furets</h5>
+                            <p>Après plusieurs jours à faire des battus dans la fôrets nous avons enfin retrouvé le couple de furets perdus. <br/>
+                            Après examen médical, nous pouvons affirmer qu'ils vont bien et vont pouvoir être rendus à leurs propriétaires demain.<br/>
+                            Merci à tous les volontaires pour le temps consacré à ce sauvetage hors norme.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                  </div>
+                </div>
+            </div>
+              <div class="row">
+                <div class="col-sm-12 col-md-6 mt-auto mb-auto">
+                  <div class="card">
+                    <img src="https://pixabay.com/get/g8d726f51e8c5ecb005361161efa1614212231f482fac2eb880a3e5117d01222e1eb02c725a6a5a2fd6803fe6887fe72b29821fd484dd63a11ea7f207c4767ba6e48274f5b0633338251e11c1cd2dd536_1920.jpg" class="card-img-top" alt="...">
+                    <div class="card-body border border-info">
+                      <h5 class="card-title">Qui sommes-nous?</h5>
+                      <p class="card-text">Nous sommes une association qui oeuvre pour le bien-être animal et plus particulièrement nos amis à quatre pattes.<br>
+                        Nous sommes un collectif de passionnés bénévoles: vétérinaires, éducateurs, toiletteurs, civils.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <div class="card">
+                    <img src="https://pixabay.com/get/g58655effd321d6d94a5aed8bf8634befdc3adda253f63373d4e7c6aededc0cef1e1a9a0c47e6a459583536ec19477ce195f7159c759e224efa885cf87e8489ebb35c73dbd28897af34a46679c6a37ece_1920.jpg" class="card-img-top" alt="...">
+                    <div class="card-body border border-info">
+                      <h5 class="card-title">Que faisons-nous?</h5>
+                      <p class="card-text">Nous recueillons les animaux perdus ou en errance et nous retrouvons leurs propriétaires ou le cas échéant leur retrouvons un foyer aimant.<br>
+                        Nous soignons les animaux sauvages blessés.<br>
+                        Nous aidons et conseillons les propriétaires d'animaux de compagnie via des séminaires et des formations.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </body>
+</html>
